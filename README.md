@@ -4,6 +4,25 @@ Just clone the repository, run `npm install` and then `node server.js`. That's i
 
 If you want to run it on another port, just run `PORT=3001 node server.js` to run it on port 3001 for example
 
+## 项目目录
+* app 后台程序文件夹
+* test 单元测试
+
+## 安装单元测试工具
+```shell
+npm install -g mocha
+npm install supertest
+```
+
+**工具简介**
+>Mocha是一个基于node.js和浏览器的集合各种特性的Javascript测试框架，并且可以让异步测试也变的简单和有趣。Mocha的测试是连续的，在正确的测试条件中遇到未捕获的异常时，会给出灵活且准确的报告。
+
+### 运行测试
+```shell
+mocha fileName.js
+```
+
+
 
 ### 参考网址
 
